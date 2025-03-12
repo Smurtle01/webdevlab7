@@ -6,6 +6,7 @@ body {
   font-family: 'Arial', sans-serif;
   background: url('../images/pillarofgod3.png') no-repeat center center fixed;
   background-size: cover;
+  background-color: black;
   color: #ffffff;
   text-align: center;
   padding: 20px;
