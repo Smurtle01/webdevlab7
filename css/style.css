@@ -1,0 +1,100 @@
+td, th {
+	border: 1px solid;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a2a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #f8d210;
+}
+
+#planets {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: linear-gradient(to right, #222244, #1b1b3a);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+#planets th, #planets td {
+  border: 1px solid #555;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#planets th {
+  background-color: #333366;
+  font-size: 22px;
+  font-weight: bold;
+  color: #f8d210;
+}
+
+#planets tr:nth-child(even) {
+  background-color: #29295a;
+}
+
+#planets tr:hover {
+  background-color: #3a3a7a;
+  transition: 0.3s;
+}
+
+.images img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  font-style: normal;
+}
+
+#planets td:first-child {
+  font-style: italic;
+}
+
+#planets tr.images td:first-child {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.mass td { color: #f88c00; font-weight: bold; }
+.diameter td { color: #4db8ff; font-weight: bold; }
+.gravity td { color: #ff4d4d; font-weight: bold; }
+.velocity td { color: #ffcc00; font-weight: bold; }
+.day td { color: #99ff99; font-weight: bold; }
+.orbit td { color: #ff66ff; font-weight: bold; }
+.temp td { color: #00ffff; font-weight: bold; }
+
+.footnote {
+  font-size: 14px;
+  font-style: italic;
+  color: #bbbbbb;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 20%;
+}
+
+.footnote a {
+  color: #4db8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footnote a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
